@@ -1,4 +1,3 @@
-I’ll provide the `README.md` file again, ensuring it reflects the current project details and includes all sections previously provided: Introduction, Development Process, Key Features, Creative Elements, Challenges and Solutions, Conclusion, and Contribution. Since there are no new changes requested beyond providing the file again, this will be a direct reproduction of the previous `README.md` content, formatted in Markdown for clarity and structure. The contribution table includes your name and student ID (Fernando W.T.R.P., IT21278280) for Marker 1, with placeholders for Members 2 and 3 as before.
 
 ---
 
