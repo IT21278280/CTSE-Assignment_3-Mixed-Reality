@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="warground" size="5.000000 5.000000" />
+    <ImageTarget name="BeachBallMarker" size="5.000000 5.000000" />
+    <ImageTarget name="CrabMarker" size="5.000000 5.000000" />
+    <ImageTarget name="PalmTreeMarker" size="5.000000 3.750000" />
+  </Tracking>
+</QCARConfig>
