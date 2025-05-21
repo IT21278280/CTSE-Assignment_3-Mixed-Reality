@@ -1,0 +1,1436 @@
+Using pre-set license
+Built from '6000.1/staging' branch; Version is '6000.1.3f1 (f34db9734971) revision 15945145'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 7883 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Date: 2025-05-21T08:30:59Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.1.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/USER/Desktop/My project AR
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+49958
+-job-worker-count
+3
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/USER/Desktop/My project AR
+C:/Users/USER/Desktop/My project AR
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [22776]  Target information:
+
+Player connection [22776]  * "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 481812200 [EditorId] 481812200 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-01B3HUVC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [22776]  * "[IP] 192.168.137.1 [Port] 0 [Flags] 2 [Guid] 481812200 [EditorId] 481812200 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-01B3HUVC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [22776] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [22776] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 347.78 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 7.24 ms.
+Initialize engine version: 6000.1.3f1 (f34db9734971)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/USER/Desktop/My project AR/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        NVIDIA GeForce MX350 (ID=0x1c94)
+    Vendor:          NVIDIA
+    VRAM:            1979 MB
+    App VRAM Budget: 1682 MB
+    Driver:          30.0.15.1169
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.029007 seconds.
+- Loaded All Assemblies, in  5.538 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 2446 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.941 seconds
+Domain Reload Profiling: 11456ms
+	BeginReloadAssembly (2842ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (460ms)
+	RebuildNativeTypeToScriptingClass (95ms)
+	initialDomainReloadingComplete (426ms)
+	LoadAllAssembliesAndSetupDomain (1690ms)
+		LoadAssemblies (2706ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1673ms)
+			TypeCache.Refresh (1665ms)
+				TypeCache.ScanAssembly (1505ms)
+			BuildScriptInfoCaches (1ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (5944ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (5496ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3232ms)
+			SetLoadedEditorAssemblies (29ms)
+			BeforeProcessingInitializeOnLoad (737ms)
+			ProcessInitializeOnLoadAttributes (1080ms)
+			ProcessInitializeOnLoadMethodAttributes (416ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  8.704 seconds
+Refreshing native plugins compatible for Editor in 25.76 ms, found 6 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  8.781 seconds
+Domain Reload Profiling: 17463ms
+	BeginReloadAssembly (1354ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (46ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (129ms)
+	RebuildCommonClasses (317ms)
+	RebuildNativeTypeToScriptingClass (59ms)
+	initialDomainReloadingComplete (213ms)
+	LoadAllAssembliesAndSetupDomain (6736ms)
+		LoadAssemblies (4836ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (2831ms)
+			TypeCache.Refresh (2306ms)
+				TypeCache.ScanAssembly (2201ms)
+			BuildScriptInfoCaches (473ms)
+			ResolveRequiredComponents (39ms)
+	FinalizeReload (8784ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (7320ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (101ms)
+			SetLoadedEditorAssemblies (21ms)
+			BeforeProcessingInitializeOnLoad (1379ms)
+			ProcessInitializeOnLoadAttributes (5415ms)
+			ProcessInitializeOnLoadMethodAttributes (355ms)
+			AfterProcessingInitializeOnLoad (46ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (41ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.19 seconds
+Refreshing native plugins compatible for Editor in 69.39 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.51 ms.
+Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3762 unused Assets / (1.4 MB). Loaded Objects now: 4376.
+Memory consumption went from 98.4 MB to 97.0 MB.
+Total: 154.423500 ms (FindLiveObjects: 1.782000 ms CreateObjectMapping: 1.475500 ms MarkObjects: 127.399400 ms  DeleteObjects: 23.756800 ms)
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  7.438 seconds
+Refreshing native plugins compatible for Editor in 6837.71 ms, found 6 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.975 seconds
+Domain Reload Profiling: 13355ms
+	BeginReloadAssembly (1170ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (38ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (224ms)
+	RebuildCommonClasses (262ms)
+	RebuildNativeTypeToScriptingClass (77ms)
+	initialDomainReloadingComplete (247ms)
+	LoadAllAssembliesAndSetupDomain (5619ms)
+		LoadAssemblies (4696ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1518ms)
+			TypeCache.Refresh (68ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (1423ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (5981ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (5560ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (782ms)
+			ProcessInitializeOnLoadAttributes (4580ms)
+			ProcessInitializeOnLoadMethodAttributes (115ms)
+			AfterProcessingInitializeOnLoad (27ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 15.03 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 5.42 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3760 unused Assets / (1.0 MB). Loaded Objects now: 4377.
+Memory consumption went from 90.2 MB to 89.2 MB.
+Total: 24.591100 ms (FindLiveObjects: 2.578700 ms CreateObjectMapping: 1.259800 ms MarkObjects: 17.004300 ms  DeleteObjects: 3.741900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 12200.446552 seconds.
+  path: Assets/RedDragon 1.2/Assets/Materials/Dragon.mat
+  artifactKey: Guid(635ce382210988348a8496d2faade8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RedDragon 1.2/Assets/Materials/Dragon.mat using Guid(635ce382210988348a8496d2faade8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79f6ec4c0e87d9caaf1e1192651eeb52') in 3.0925046 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/RedDragon 1.2/Assets/Materials/PlaneColour.mat
+  artifactKey: Guid(3b83915a4af6b09438a38476d4c6740a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RedDragon 1.2/Assets/Materials/PlaneColour.mat using Guid(3b83915a4af6b09438a38476d4c6740a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b3da7f162e7f2976fe4ac9e8d5e8402') in 0.1449899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/RedDragon 1.2/Assets/Mesh
+  artifactKey: Guid(ac2b9f8dbb29e514d8612f8048ec5d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RedDragon 1.2/Assets/Mesh using Guid(ac2b9f8dbb29e514d8612f8048ec5d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7df478aa832c31629b1f7944e9c075ca') in 0.0033336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.046334 seconds.
+  path: Assets/RedDragon 1.2/Assets/Prefab/RedDragon1.1.prefab
+  artifactKey: Guid(8431058aa84a65044bbe46298ab86574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RedDragon 1.2/Assets/Prefab/RedDragon1.1.prefab using Guid(8431058aa84a65044bbe46298ab86574) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7135cb94396751299038115fc636111') in 4.3846983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 341
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.653525 seconds.
+  path: Assets/RedDragon 1.2/Assets/Textures/Red/Dragon_Dragon_Normal.tga
+  artifactKey: Guid(8388ce2e638eb8f43be8ab3e9d696c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RedDragon 1.2/Assets/Textures/Red/Dragon_Dragon_Normal.tga using Guid(8388ce2e638eb8f43be8ab3e9d696c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32c7eb921eb8c48a260d3ca107c60f29') in 1.9133178 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.977145 seconds.
+  path: Assets/RedDragon 1.2/Assets/Textures/BlackWyvern/Dragon_BlackWyvern_MetallicSmoothness.tga
+  artifactKey: Guid(9030e862fdfe19a4ca213d6ec8e0d627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RedDragon 1.2/Assets/Textures/BlackWyvern/Dragon_BlackWyvern_MetallicSmoothness.tga using Guid(9030e862fdfe19a4ca213d6ec8e0d627) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4dd6775f7532d962a31e266b925ac9a') in 0.8381699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/RedDragon 1.2/Assets/Textures/BlackWyvern/Dragon_BlackWyvern_Normal.tga
+  artifactKey: Guid(638ed217d7022574abdf35d2a7b1db2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RedDragon 1.2/Assets/Textures/BlackWyvern/Dragon_BlackWyvern_Normal.tga using Guid(638ed217d7022574abdf35d2a7b1db2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee25bde4e26173238628879b721f789a') in 0.4832303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 327.219112 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/BeachSceneTargets/CrabMarker_scaled.jpg
+  artifactKey: Guid(3668ebb250a042cbad7aa8cfcfef30cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/BeachSceneTargets/CrabMarker_scaled.jpg using Guid(3668ebb250a042cbad7aa8cfcfef30cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '645610a06f2523e5c214db920382d507') in 0.0973905 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/BeachSceneTargets/PalmTreeMarker_scaled.jpg
+  artifactKey: Guid(547f4a9ee2db46829ecb4767f775acf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/BeachSceneTargets/PalmTreeMarker_scaled.jpg using Guid(547f4a9ee2db46829ecb4767f775acf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e92980d0626dc2d326d30efc53bde89f') in 0.0581958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.376374 seconds.
+  path: Assets/Final AR Result/ReflectionProbe-0.exr
+  artifactKey: Guid(4b7b99299b17ea149ab7b6987a4ba2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final AR Result/ReflectionProbe-0.exr using Guid(4b7b99299b17ea149ab7b6987a4ba2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b803ef5d12b309cf2bb96588ccd8b67c') in 0.107732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 207.129165 seconds.
+  path: Assets/AShopExport/Barbarian mage/Barbarian mage.prefab
+  artifactKey: Guid(089964c7cb0d1f74ebdb3a267fbc0763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AShopExport/Barbarian mage/Barbarian mage.prefab using Guid(089964c7cb0d1f74ebdb3a267fbc0763) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '802634a986cecdc6786b0aa972669940') in 0.0434181 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 101
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  9.851 seconds
+Refreshing native plugins compatible for Editor in 17.06 ms, found 6 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.602 seconds
+Domain Reload Profiling: 13518ms
+	BeginReloadAssembly (1664ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (50ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (4ms)
+		CreateAndSetChildDomain (326ms)
+	RebuildCommonClasses (605ms)
+	RebuildNativeTypeToScriptingClass (106ms)
+	initialDomainReloadingComplete (380ms)
+	LoadAllAssembliesAndSetupDomain (7160ms)
+		LoadAssemblies (4245ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (3844ms)
+			TypeCache.Refresh (67ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (3550ms)
+			ResolveRequiredComponents (132ms)
+	FinalizeReload (3604ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2679ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (56ms)
+			SetLoadedEditorAssemblies (22ms)
+			BeforeProcessingInitializeOnLoad (603ms)
+			ProcessInitializeOnLoadAttributes (1731ms)
+			ProcessInitializeOnLoadMethodAttributes (205ms)
+			AfterProcessingInitializeOnLoad (59ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (56ms)
+Refreshing native plugins compatible for Editor in 22.76 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.59 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3760 unused Assets / (1.2 MB). Loaded Objects now: 4427.
+Memory consumption went from 104.6 MB to 103.4 MB.
+Total: 24.164600 ms (FindLiveObjects: 1.302600 ms CreateObjectMapping: 1.687000 ms MarkObjects: 17.441900 ms  DeleteObjects: 3.727400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  6.711 seconds
+Refreshing native plugins compatible for Editor in 25.29 ms, found 6 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  9.769 seconds
+Domain Reload Profiling: 16501ms
+	BeginReloadAssembly (919ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (32ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (154ms)
+	RebuildCommonClasses (194ms)
+	RebuildNativeTypeToScriptingClass (85ms)
+	initialDomainReloadingComplete (198ms)
+	LoadAllAssembliesAndSetupDomain (5333ms)
+		LoadAssemblies (2605ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (3216ms)
+			TypeCache.Refresh (39ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (3073ms)
+			ResolveRequiredComponents (81ms)
+	FinalizeReload (9771ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (5080ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (151ms)
+			SetLoadedEditorAssemblies (38ms)
+			BeforeProcessingInitializeOnLoad (1204ms)
+			ProcessInitializeOnLoadAttributes (3366ms)
+			ProcessInitializeOnLoadMethodAttributes (263ms)
+			AfterProcessingInitializeOnLoad (58ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (38ms)
+Refreshing native plugins compatible for Editor in 41.19 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.53 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3760 unused Assets / (1.2 MB). Loaded Objects now: 4427.
+Memory consumption went from 105.0 MB to 103.8 MB.
+Total: 45.181500 ms (FindLiveObjects: 2.926600 ms CreateObjectMapping: 3.168600 ms MarkObjects: 31.211000 ms  DeleteObjects: 7.868700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  3.706 seconds
+Refreshing native plugins compatible for Editor in 16.39 ms, found 6 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.918 seconds
+Domain Reload Profiling: 6597ms
+	BeginReloadAssembly (1052ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (35ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (5ms)
+		CreateAndSetChildDomain (179ms)
+	RebuildCommonClasses (109ms)
+	RebuildNativeTypeToScriptingClass (93ms)
+	initialDomainReloadingComplete (185ms)
+	LoadAllAssembliesAndSetupDomain (2238ms)
+		LoadAssemblies (2242ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (698ms)
+			TypeCache.Refresh (27ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (548ms)
+			ResolveRequiredComponents (38ms)
+	FinalizeReload (2920ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2521ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (46ms)
+			SetLoadedEditorAssemblies (23ms)
+			BeforeProcessingInitializeOnLoad (419ms)
+			ProcessInitializeOnLoadAttributes (1891ms)
+			ProcessInitializeOnLoadMethodAttributes (117ms)
+			AfterProcessingInitializeOnLoad (24ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 10.30 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.38 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3760 unused Assets / (0.9 MB). Loaded Objects now: 4427.
+Memory consumption went from 105.3 MB to 104.4 MB.
+Total: 17.119000 ms (FindLiveObjects: 0.761000 ms CreateObjectMapping: 1.012000 ms MarkObjects: 12.289400 ms  DeleteObjects: 3.050700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  4.427 seconds
+Refreshing native plugins compatible for Editor in 23.98 ms, found 6 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.025 seconds
+Domain Reload Profiling: 7448ms
+	BeginReloadAssembly (1046ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (40ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (253ms)
+	RebuildCommonClasses (237ms)
+	RebuildNativeTypeToScriptingClass (85ms)
+	initialDomainReloadingComplete (147ms)
+	LoadAllAssembliesAndSetupDomain (2905ms)
+		LoadAssemblies (2021ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1371ms)
+			TypeCache.Refresh (35ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (1269ms)
+			ResolveRequiredComponents (52ms)
+	FinalizeReload (3028ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2408ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (58ms)
+			SetLoadedEditorAssemblies (15ms)
+			BeforeProcessingInitializeOnLoad (581ms)
+			ProcessInitializeOnLoadAttributes (1597ms)
+			ProcessInitializeOnLoadMethodAttributes (130ms)
+			AfterProcessingInitializeOnLoad (26ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 16.41 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.19 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3760 unused Assets / (1.2 MB). Loaded Objects now: 4427.
+Memory consumption went from 105.7 MB to 104.5 MB.
+Total: 22.330600 ms (FindLiveObjects: 1.206300 ms CreateObjectMapping: 1.253900 ms MarkObjects: 14.624100 ms  DeleteObjects: 5.241200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.544 seconds
+Refreshing native plugins compatible for Editor in 21.48 ms, found 6 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.408 seconds
+Domain Reload Profiling: 7950ms
+	BeginReloadAssembly (569ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (24ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (107ms)
+	RebuildCommonClasses (155ms)
+	RebuildNativeTypeToScriptingClass (62ms)
+	initialDomainReloadingComplete (89ms)
+	LoadAllAssembliesAndSetupDomain (1665ms)
+		LoadAssemblies (1101ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (882ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (805ms)
+			ResolveRequiredComponents (46ms)
+	FinalizeReload (5411ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (4217ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (134ms)
+			SetLoadedEditorAssemblies (36ms)
+			BeforeProcessingInitializeOnLoad (1289ms)
+			ProcessInitializeOnLoadAttributes (2590ms)
+			ProcessInitializeOnLoadMethodAttributes (124ms)
+			AfterProcessingInitializeOnLoad (43ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (51ms)
+Refreshing native plugins compatible for Editor in 22.03 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.56 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3760 unused Assets / (1.1 MB). Loaded Objects now: 4427.
+Memory consumption went from 106.0 MB to 105.0 MB.
+Total: 27.292600 ms (FindLiveObjects: 1.369200 ms CreateObjectMapping: 0.812000 ms MarkObjects: 20.451600 ms  DeleteObjects: 4.651600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  3.576 seconds
+Refreshing native plugins compatible for Editor in 13.11 ms, found 6 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.097 seconds
+Domain Reload Profiling: 5662ms
+	BeginReloadAssembly (890ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (37ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (183ms)
+	RebuildCommonClasses (145ms)
+	RebuildNativeTypeToScriptingClass (50ms)
+	initialDomainReloadingComplete (144ms)
+	LoadAllAssembliesAndSetupDomain (2334ms)
+		LoadAssemblies (1655ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1163ms)
+			TypeCache.Refresh (41ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (1066ms)
+			ResolveRequiredComponents (41ms)
+	FinalizeReload (2098ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1559ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (348ms)
+			ProcessInitializeOnLoadAttributes (1047ms)
+			ProcessInitializeOnLoadMethodAttributes (85ms)
+			AfterProcessingInitializeOnLoad (32ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 5.38 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.32 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3760 unused Assets / (1.7 MB). Loaded Objects now: 4427.
+Memory consumption went from 106.4 MB to 104.7 MB.
+Total: 15.480500 ms (FindLiveObjects: 0.964100 ms CreateObjectMapping: 1.187100 ms MarkObjects: 9.415000 ms  DeleteObjects: 3.910400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  3.257 seconds
+Refreshing native plugins compatible for Editor in 20.51 ms, found 6 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.493 seconds
+Domain Reload Profiling: 6740ms
+	BeginReloadAssembly (793ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (24ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (166ms)
+	RebuildCommonClasses (200ms)
+	RebuildNativeTypeToScriptingClass (90ms)
+	initialDomainReloadingComplete (137ms)
+	LoadAllAssembliesAndSetupDomain (2025ms)
+		LoadAssemblies (1521ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (936ms)
+			TypeCache.Refresh (24ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (863ms)
+			ResolveRequiredComponents (37ms)
+	FinalizeReload (3495ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2736ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (61ms)
+			SetLoadedEditorAssemblies (16ms)
+			BeforeProcessingInitializeOnLoad (742ms)
+			ProcessInitializeOnLoadAttributes (1793ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
+			AfterProcessingInitializeOnLoad (23ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 16.74 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.39 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3760 unused Assets / (1.1 MB). Loaded Objects now: 4427.
+Memory consumption went from 106.7 MB to 105.7 MB.
+Total: 21.357900 ms (FindLiveObjects: 1.372900 ms CreateObjectMapping: 1.596500 ms MarkObjects: 15.370600 ms  DeleteObjects: 3.013300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  3.630 seconds
+Refreshing native plugins compatible for Editor in 14.93 ms, found 6 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.641 seconds
+Domain Reload Profiling: 7259ms
+	BeginReloadAssembly (992ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (30ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (171ms)
+	RebuildCommonClasses (204ms)
+	RebuildNativeTypeToScriptingClass (65ms)
+	initialDomainReloadingComplete (145ms)
+	LoadAllAssembliesAndSetupDomain (2210ms)
+		LoadAssemblies (1936ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (876ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (809ms)
+			ResolveRequiredComponents (38ms)
+	FinalizeReload (3643ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2923ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (50ms)
+			SetLoadedEditorAssemblies (14ms)
+			BeforeProcessingInitializeOnLoad (809ms)
+			ProcessInitializeOnLoadAttributes (1797ms)
+			ProcessInitializeOnLoadMethodAttributes (222ms)
+			AfterProcessingInitializeOnLoad (31ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 12.64 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.34 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3760 unused Assets / (1.2 MB). Loaded Objects now: 4427.
+Memory consumption went from 107.1 MB to 105.9 MB.
+Total: 15.034000 ms (FindLiveObjects: 0.707300 ms CreateObjectMapping: 0.688400 ms MarkObjects: 11.048600 ms  DeleteObjects: 2.587000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  6.552 seconds
+Refreshing native plugins compatible for Editor in 33.08 ms, found 6 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.456 seconds
+Domain Reload Profiling: 10803ms
+	BeginReloadAssembly (1967ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (43ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (274ms)
+	RebuildCommonClasses (490ms)
+	RebuildNativeTypeToScriptingClass (186ms)
+	initialDomainReloadingComplete (268ms)
+	LoadAllAssembliesAndSetupDomain (3434ms)
+		LoadAssemblies (3098ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1708ms)
+			TypeCache.Refresh (34ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (1506ms)
+			ResolveRequiredComponents (145ms)
+	FinalizeReload (4458ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3462ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (79ms)
+			SetLoadedEditorAssemblies (23ms)
+			BeforeProcessingInitializeOnLoad (691ms)
+			ProcessInitializeOnLoadAttributes (2412ms)
+			ProcessInitializeOnLoadMethodAttributes (225ms)
+			AfterProcessingInitializeOnLoad (31ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 39.92 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 1.90 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3760 unused Assets / (2.1 MB). Loaded Objects now: 4427.
+Memory consumption went from 107.5 MB to 105.4 MB.
+Total: 45.432300 ms (FindLiveObjects: 2.507300 ms CreateObjectMapping: 1.561100 ms MarkObjects: 27.979600 ms  DeleteObjects: 13.378900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  3.384 seconds
+Refreshing native plugins compatible for Editor in 7.25 ms, found 6 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.353 seconds
+Domain Reload Profiling: 5723ms
+	BeginReloadAssembly (869ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (41ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (152ms)
+	RebuildCommonClasses (188ms)
+	RebuildNativeTypeToScriptingClass (56ms)
+	initialDomainReloadingComplete (152ms)
+	LoadAllAssembliesAndSetupDomain (2103ms)
+		LoadAssemblies (1606ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (962ms)
+			TypeCache.Refresh (35ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (886ms)
+			ResolveRequiredComponents (33ms)
+	FinalizeReload (2354ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1769ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (50ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (420ms)
+			ProcessInitializeOnLoadAttributes (1181ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (23ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 6.63 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.20 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3760 unused Assets / (1.0 MB). Loaded Objects now: 4427.
+Memory consumption went from 107.8 MB to 106.8 MB.
+Total: 15.171800 ms (FindLiveObjects: 1.181400 ms CreateObjectMapping: 0.802200 ms MarkObjects: 11.051700 ms  DeleteObjects: 2.134500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.363 seconds
+Refreshing native plugins compatible for Editor in 9.00 ms, found 6 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.334 seconds
+Domain Reload Profiling: 3694ms
+	BeginReloadAssembly (857ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (31ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (341ms)
+	RebuildCommonClasses (190ms)
+	RebuildNativeTypeToScriptingClass (41ms)
+	initialDomainReloadingComplete (93ms)
+	LoadAllAssembliesAndSetupDomain (1178ms)
+		LoadAssemblies (984ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (482ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (381ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (1335ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1023ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (233ms)
+			ProcessInitializeOnLoadAttributes (672ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 6.62 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.17 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3760 unused Assets / (0.9 MB). Loaded Objects now: 4427.
+Memory consumption went from 108.2 MB to 107.3 MB.
+Total: 11.646600 ms (FindLiveObjects: 1.734700 ms CreateObjectMapping: 0.653400 ms MarkObjects: 7.240900 ms  DeleteObjects: 2.014000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in 17.771 seconds
+Refreshing native plugins compatible for Editor in 10.87 ms, found 6 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.069 seconds
+Domain Reload Profiling: 19829ms
+	BeginReloadAssembly (4107ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (307ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (5ms)
+		CreateAndSetChildDomain (1455ms)
+	RebuildCommonClasses (226ms)
+	RebuildNativeTypeToScriptingClass (64ms)
+	initialDomainReloadingComplete (185ms)
+	LoadAllAssembliesAndSetupDomain (13178ms)
+		LoadAssemblies (13617ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (967ms)
+			TypeCache.Refresh (35ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (832ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (2069ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1564ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (51ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (436ms)
+			ProcessInitializeOnLoadAttributes (947ms)
+			ProcessInitializeOnLoadMethodAttributes (98ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 7.48 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.42 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3760 unused Assets / (1.0 MB). Loaded Objects now: 4427.
+Memory consumption went from 108.5 MB to 107.5 MB.
+Total: 12.946900 ms (FindLiveObjects: 0.725700 ms CreateObjectMapping: 0.404800 ms MarkObjects: 9.491800 ms  DeleteObjects: 2.320900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  6.045 seconds
+Refreshing native plugins compatible for Editor in 16.69 ms, found 6 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.050 seconds
+Domain Reload Profiling: 10082ms
+	BeginReloadAssembly (1661ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (71ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (451ms)
+	RebuildCommonClasses (253ms)
+	RebuildNativeTypeToScriptingClass (70ms)
+	initialDomainReloadingComplete (196ms)
+	LoadAllAssembliesAndSetupDomain (3849ms)
+		LoadAssemblies (3352ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1305ms)
+			TypeCache.Refresh (134ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (1038ms)
+			ResolveRequiredComponents (38ms)
+	FinalizeReload (4052ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3483ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (53ms)
+			SetLoadedEditorAssemblies (17ms)
+			BeforeProcessingInitializeOnLoad (570ms)
+			ProcessInitializeOnLoadAttributes (2623ms)
+			ProcessInitializeOnLoadMethodAttributes (172ms)
+			AfterProcessingInitializeOnLoad (46ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 9.76 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.33 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3760 unused Assets / (0.7 MB). Loaded Objects now: 4427.
+Memory consumption went from 108.9 MB to 108.1 MB.
+Total: 38.193600 ms (FindLiveObjects: 1.237800 ms CreateObjectMapping: 1.908500 ms MarkObjects: 27.257500 ms  DeleteObjects: 7.783300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.763 seconds
+Refreshing native plugins compatible for Editor in 9.89 ms, found 6 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.774 seconds
+Domain Reload Profiling: 6529ms
+	BeginReloadAssembly (513ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (205ms)
+	RebuildCommonClasses (83ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (1055ms)
+		LoadAssemblies (730ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (525ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (498ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (4775ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3990ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (55ms)
+			SetLoadedEditorAssemblies (14ms)
+			BeforeProcessingInitializeOnLoad (1085ms)
+			ProcessInitializeOnLoadAttributes (2651ms)
+			ProcessInitializeOnLoadMethodAttributes (147ms)
+			AfterProcessingInitializeOnLoad (37ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (78ms)
+Refreshing native plugins compatible for Editor in 30.76 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.72 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3760 unused Assets / (404.6 KB). Loaded Objects now: 4427.
+Memory consumption went from 109.2 MB to 108.8 MB.
+Total: 33.695500 ms (FindLiveObjects: 1.773600 ms CreateObjectMapping: 2.392500 ms MarkObjects: 24.641700 ms  DeleteObjects: 4.884400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  3.874 seconds
+Refreshing native plugins compatible for Editor in 15.73 ms, found 6 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.432 seconds
+Domain Reload Profiling: 8295ms
+	BeginReloadAssembly (895ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (27ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (135ms)
+	RebuildCommonClasses (166ms)
+	RebuildNativeTypeToScriptingClass (76ms)
+	initialDomainReloadingComplete (162ms)
+	LoadAllAssembliesAndSetupDomain (2562ms)
+		LoadAssemblies (2147ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (978ms)
+			TypeCache.Refresh (31ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (907ms)
+			ResolveRequiredComponents (29ms)
+	FinalizeReload (4433ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3571ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (350ms)
+			ProcessInitializeOnLoadAttributes (2237ms)
+			ProcessInitializeOnLoadMethodAttributes (920ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.74 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3760 unused Assets / (3.8 MB). Loaded Objects now: 4427.
+Memory consumption went from 105.0 MB to 101.2 MB.
+Total: 46.097200 ms (FindLiveObjects: 0.518900 ms CreateObjectMapping: 0.613500 ms MarkObjects: 6.153400 ms  DeleteObjects: 38.808400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 17257.838900 seconds.
+  path: Assets/RedDragon 1.2/Assets/Prefab/RedDragon1.1.prefab
+  artifactKey: Guid(8431058aa84a65044bbe46298ab86574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RedDragon 1.2/Assets/Prefab/RedDragon1.1.prefab using Guid(8431058aa84a65044bbe46298ab86574) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)The legacy Animation Clip "BattleStance" cannot be used in the State "BattleStance". Legacy AnimationClips are not allowed in Animator Controllers.To use this animation in this Animator Controller, you must reimport in as a Generic or Humanoid animation clip
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Editor\Src\Animation\StateMachine.cpp line 447]
+
+The legacy Animation Clip "Bite" cannot be used in the State "Bite". Legacy AnimationClips are not allowed in Animator Controllers.To use this animation in this Animator Controller, you must reimport in as a Generic or Humanoid animation clip
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Editor\Src\Animation\StateMachine.cpp line 447]
+
+The legacy Animation Clip "Drakaris" cannot be used in the State "Drakaris". Legacy AnimationClips are not allowed in Animator Controllers.To use this animation in this Animator Controller, you must reimport in as a Generic or Humanoid animation clip
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Editor\Src\Animation\StateMachine.cpp line 447]
+
+The legacy Animation Clip "Flying FWD" cannot be used in the State "FlyingFWD". Legacy AnimationClips are not allowed in Animator Controllers.To use this animation in this Animator Controller, you must reimport in as a Generic or Humanoid animation clip
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Editor\Src\Animation\StateMachine.cpp line 447]
+
+The legacy Animation Clip "FlyingAttack" cannot be used in the State "FlyingAttack". Legacy AnimationClips are not allowed in Animator Controllers.To use this animation in this Animator Controller, you must reimport in as a Generic or Humanoid animation clip
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Editor\Src\Animation\StateMachine.cpp line 447]
+
+The legacy Animation Clip "Hover" cannot be used in the State "Hover". Legacy AnimationClips are not allowed in Animator Controllers.To use this animation in this Animator Controller, you must reimport in as a Generic or Humanoid animation clip
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Editor\Src\Animation\StateMachine.cpp line 447]
+
+The legacy Animation Clip "IdleAgressive" cannot be used in the State "IdleAgressive". Legacy AnimationClips are not allowed in Animator Controllers.To use this animation in this Animator Controller, you must reimport in as a Generic or Humanoid animation clip
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Editor\Src\Animation\StateMachine.cpp line 447]
+
+The legacy Animation Clip "IdleRestless" cannot be used in the State "IdleRestless". Legacy AnimationClips are not allowed in Animator Controllers.To use this animation in this Animator Controller, you must reimport in as a Generic or Humanoid animation clip
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Editor\Src\Animation\StateMachine.cpp line 447]
+
+The legacy Animation Clip "IdleSimple" cannot be used in the State "IdleSimple". Legacy AnimationClips are not allowed in Animator Controllers.To use this animation in this Animator Controller, you must reimport in as a Generic or Humanoid animation clip
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Editor\Src\Animation\StateMachine.cpp line 447]
+
+The legacy Animation Clip "Lands" cannot be used in the State "Lands". Legacy AnimationClips are not allowed in Animator Controllers.To use this animation in this Animator Controller, you must reimport in as a Generic or Humanoid animation clip
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Editor\Src\Animation\StateMachine.cpp line 447]
+
+The legacy Animation Clip "TakeOff" cannot be used in the State "TakeOff". Legacy AnimationClips are not allowed in Animator Controllers.To use this animation in this Animator Controller, you must reimport in as a Generic or Humanoid animation clip
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Editor\Src\Animation\StateMachine.cpp line 447]
+
+The legacy Animation Clip "Walk" cannot be used in the State "Walk". Legacy AnimationClips are not allowed in Animator Controllers.To use this animation in this Animator Controller, you must reimport in as a Generic or Humanoid animation clip
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Editor\Src\Animation\StateMachine.cpp line 447]
+
+The legacy Animation Clip "Die" cannot be used in the State "Die". Legacy AnimationClips are not allowed in Animator Controllers.To use this animation in this Animator Controller, you must reimport in as a Generic or Humanoid animation clip
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Editor\Src\Animation\StateMachine.cpp line 447]
+
+ -> (artifact id: '14f15ca7342ac429e604a2a0a3402121') in 3.4700024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 340
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  3.819 seconds
+Refreshing native plugins compatible for Editor in 12.39 ms, found 6 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.890 seconds
+Domain Reload Profiling: 5688ms
+	BeginReloadAssembly (968ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (28ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (212ms)
+	RebuildCommonClasses (234ms)
+	RebuildNativeTypeToScriptingClass (59ms)
+	initialDomainReloadingComplete (221ms)
+	LoadAllAssembliesAndSetupDomain (2315ms)
+		LoadAssemblies (1663ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1195ms)
+			TypeCache.Refresh (68ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (1092ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (1891ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1516ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (328ms)
+			ProcessInitializeOnLoadAttributes (1025ms)
+			ProcessInitializeOnLoadMethodAttributes (98ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 6.76 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.23 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3760 unused Assets / (1.7 MB). Loaded Objects now: 4427.
+Memory consumption went from 104.7 MB to 103.1 MB.
+Total: 16.374600 ms (FindLiveObjects: 0.570600 ms CreateObjectMapping: 0.756600 ms MarkObjects: 11.252800 ms  DeleteObjects: 3.791600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.545 seconds
+Refreshing native plugins compatible for Editor in 13.66 ms, found 6 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.215 seconds
+Domain Reload Profiling: 4755ms
+	BeginReloadAssembly (732ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (150ms)
+	RebuildCommonClasses (171ms)
+	RebuildNativeTypeToScriptingClass (66ms)
+	initialDomainReloadingComplete (111ms)
+	LoadAllAssembliesAndSetupDomain (1457ms)
+		LoadAssemblies (1231ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (605ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (556ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (2218ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1678ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (449ms)
+			ProcessInitializeOnLoadAttributes (1085ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 7.83 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.21 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3760 unused Assets / (1.6 MB). Loaded Objects now: 4427.
+Memory consumption went from 105.1 MB to 103.5 MB.
+Total: 13.972400 ms (FindLiveObjects: 0.800200 ms CreateObjectMapping: 1.066000 ms MarkObjects: 8.787600 ms  DeleteObjects: 3.315300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.957 seconds
+Refreshing native plugins compatible for Editor in 7.51 ms, found 6 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.798 seconds
+Domain Reload Profiling: 5741ms
+	BeginReloadAssembly (977ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (36ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (151ms)
+	RebuildCommonClasses (213ms)
+	RebuildNativeTypeToScriptingClass (65ms)
+	initialDomainReloadingComplete (130ms)
+	LoadAllAssembliesAndSetupDomain (1557ms)
+		LoadAssemblies (1519ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (671ms)
+			TypeCache.Refresh (26ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (601ms)
+			ResolveRequiredComponents (32ms)
+	FinalizeReload (2799ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2298ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (47ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (551ms)
+			ProcessInitializeOnLoadAttributes (1451ms)
+			ProcessInitializeOnLoadMethodAttributes (181ms)
+			AfterProcessingInitializeOnLoad (54ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 14.43 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.38 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3760 unused Assets / (1.7 MB). Loaded Objects now: 4427.
+Memory consumption went from 105.4 MB to 103.7 MB.
+Total: 17.809000 ms (FindLiveObjects: 0.839700 ms CreateObjectMapping: 0.843200 ms MarkObjects: 11.155000 ms  DeleteObjects: 4.966600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
