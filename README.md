@@ -1,7 +1,7 @@
 
 ---
 
-# War Scene AR Application - SE4010 Assignment 3
+# War Scene AR Application - SE4010 Assignment 3 - Mixed Reality
 
 ## Introduction
 This report outlines the development of an Augmented Reality (AR) application for war scenes, created as part of SE4010 Assignment 3 - Mixed Reality. Using Unity and Vuforia, I designed an immersive AR experience featuring three distinct war scenarios triggered by unique image markers. The scenes depict a battle between three barbarians, a barbarian versus a goblin, and barbarians facing a dragon, set against a rugged mountain terrain with rocks and trees. Creative elements such as combat animations, particle effects, and realistic soundscapes enhance engagement, aligning with the assignment’s objectives.
